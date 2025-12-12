@@ -1,0 +1,14 @@
+import React from "react";
+import Products from "./pages/Products";
+import Navbar from "./components/Navbar";
+
+const App = () => {
+  return (
+    <div>
+      <Navbar />
+      <Products />
+    </div>
+  );
+};
+
+export default App;
